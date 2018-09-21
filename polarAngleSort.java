@@ -5,9 +5,14 @@
          double x;
          double y;
      
-		    public String toString() {
-	    	  return "("+x+","+y+")";
-	      }
+	public coOrdinates(double x, double y){
+        	this.x = x;
+        	this.y = y;
+        }     
+	     
+	public String toString() {
+	   return "("+x+","+y+")";
+	}
      }
  
      public static double polarAngle(double x, double y){
