@@ -18,7 +18,7 @@
      
      public static coOrdinates[] SortPolarAngle(coOrdinates[] input){
          for(int i=0, j = input.length()-1;i<j;i++,j--){
-             if(polarAngle(input[i].y,input[i].x)>polarAngle(input[j].y,input[j].x){
+             if(polarAngle(input[i].y,input[i].x)>polarAngle(input[j].y,input[j].x)){
                  coOrdinates temp = input[i];
 				         input[i]=input[j];
 				         input[j]=temp;
